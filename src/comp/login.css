@@ -1,0 +1,209 @@
+{
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "CustomFont"
+   }
+
+   @font-face {
+      font-family: "CustomFont";
+   }
+
+   .page {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .cover {
+      background-color: white;
+      width: 20.8em;
+      height: 23.5em;
+      position: relative;
+      border-radius: 0.6em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+   }
+
+   .top {
+      background: linear-gradient(15deg, #373975 20%, #c4497b 80%);
+      width: 19.2em;
+      height: 7.4em;
+      position: relative;
+      bottom: 28px;
+      border-radius: 0.4em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      box-shadow: 1px 1px 3px rgb(231, 154, 154);
+   }
+
+   .check {
+      text-align: left;
+   }
+
+   .alt-signin {
+      width: 60%;
+      height: 2em;
+      display: flex;
+      align-items: top;
+      justify-content: space-evenly;
+      margin-bottom: 25px;
+   }
+
+   .alt-signin div {
+      width: 32px;
+      height: 30px;
+      border-radius: 0.25em;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      cursor: pointer;
+
+   }
+
+   .facebook {
+      background-image: url(/src/images/fb5.png);
+   }
+
+   .github {
+      background-image: url(/src/images/github-logo.png);
+   }
+
+   .google {
+      background-image: url(/src/images/google-logo.png);
+   }
+
+   .entry {
+      margin-top: -15px;
+      margin-bottom: 2.5px;
+   }
+
+
+   input {
+      border-width: 1px;
+      height: 1.8em;
+      margin-bottom: 14px;
+      border-style: solid;
+      border-color: rgb(214, 208, 208);
+      border-radius: 5px;
+
+   }
+
+   input:focus {
+      outline-color: red;
+   }
+
+   h3 {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+   }
+
+   .input-container1 {
+      position: relative;
+
+   }
+
+   .input1 {
+      background: rgb(255, 255, 255);
+      border-radius: 4px;
+      border: 1px solid rgba(119, 116, 116, 0.32);
+      height: 28px;
+      width: 280px;
+      padding-left: 10px;
+   }
+
+   .input1::placeholder {
+      padding-left: 6px;
+      font-size: 11px;
+      font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .placeholder {
+      position: absolute;
+      padding: 2px 2px 2px 2px;
+      left: 10px;
+      top: 5.5px;
+      font-size: 11px;
+      color: grey;
+      transition: 0.1s;
+      pointer-events: none;
+      transition: top 0.2s;
+
+   }
+
+   .input1:focus+.placeholder,
+   .input1:not(:placeholder-shown).input1:not(:focus)+.placeholder {
+      top: -0.5rem;
+      color: red;
+      background-color: white;
+      font-size: 9px;
+   }
+
+
+   .rem {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(175, 168, 168);
+      font-size: 11px;
+      margin-left: 15px;
+   }
+
+   .rem:hover {
+      cursor: pointer;
+   }
+
+   .check {
+      display: flex;
+      flex-direction: row;
+      padding-left: 5px;
+      padding-right: 180px;
+      margin-top: 2px;
+   }
+
+   .signup {
+      border: none;
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: #d41e69;
+      font-size: 12px;
+      padding-left: 3px;
+      text-decoration: none;
+   }
+
+   .text {
+      color: rgb(163, 157, 157);
+      font-size: 10.5px;
+      margin-bottom: 21px;
+   }
+
+   .signup:hover {
+      cursor: pointer;
+   }
+
+
+   .wrong1 {
+      color: red;
+      margin-top: -15px;
+      font-family: arial;
+      font-size: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+   }
+
+   .wrong2 {
+      color: red;
+      margin-top: -15px;
+      font-family: arial;
+      font-size: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      margin-bottom: 10px;
+   }
