@@ -1,8 +1,8 @@
- {
+{
   "name": "login-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rakshithks1310.github.io/react upload",
+  "homepage": "http://rakshithks1310.github.io/login_react",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -16,10 +16,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -42,5 +41,19 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakshithks1310/login_react.git"
+  },
+  "keywords": [
+    "e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakshithks1310/login_react/issues"
   }
 }
